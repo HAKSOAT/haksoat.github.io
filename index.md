@@ -4,7 +4,6 @@
 
 layout: custom-home
 ---
-# Hello World,
 
 ## Here's what I want:
 
