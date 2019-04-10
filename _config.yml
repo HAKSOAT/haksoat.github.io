@@ -98,7 +98,7 @@ include:
   - _projects
 markdown: kramdown
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "neon"
+minimal_mistakes_skin: "contrast"
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -137,6 +137,16 @@ defaults:
       layout: single
       author_profile: false
       share: true
+
+  # _activities
+  - scope:
+      path: ""
+      type: activities
+    values:
+      layout: single
+      author_profile: false
+      share: true
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
