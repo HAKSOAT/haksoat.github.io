@@ -2,41 +2,29 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: archive
+layout: custom-home
 ---
+# Hello World,
 
-HELLO WORLD  HELLO WORLD  HELLO WORLD  HELLO WORLD
-HELLO WORLD
-HELLO WORLD
-HELLO WORLD  HELLO WORLD  HELLO WORLD  HELLO WORLD
-HELLO WORLD
-HELLO WORLD
+## Here's what I want:
 
-HELLO WORLD  HELLO WORLD  HELLO WORLD  HELLO WORLD
-HELLO WORLD
-HELLO WORLD
+I'm Habeeb Shopeju, a self-taught software developer currently studying Electrical Electronics Engineering at the University of Agriculture, Abeokuta.
 
-HELLO WORLD  HELLO WORLD  HELLO WORLD  HELLO WORLD
-HELLO WORLD
-HELLO WORLD
+The hunger to learn more, build solutions has kept me coding for more than two years.
 
-HELLO WORLD  HELLO WORLD  HELLO WORLD  HELLO WORLD
-HELLO WORLD
-HELLO WORLD
+Hence, I am in search of a software engineering internship opportunity; be it remote or onsite.
 
-HELLO WORLD  HELLO WORLD  HELLO WORLD  HELLO WORLD
-HELLO WORLD
-HELLO WORLD
+I'm patient and have the ability to pay attention to details.
 
-HELLO WORLD  HELLO WORLD  HELLO WORLD  HELLO WORLD
-HELLO WORLD
-HELLO WORLD
+I believe it can help me improve my craft immensely, by working with other talented engineers.
 
-HELLO WORLD  HELLO WORLD  HELLO WORLD  HELLO WORLD
-HELLO WORLD
-HELLO WORLD
+I'm keen on working on projects in the field of Digital Signal Processing.
 
-HELLO WORLD  HELLO WORLD  HELLO WORLD  HELLO WORLD
-HELLO WORLD
-HELLO WORLD
+While I wait for the opportunity to come, I need to go get myself prepared.
 
+Thanks,  
+Habeeb Shopeju.
+
+## You want something too?  
+  
+Contact me through links in the footnote.
