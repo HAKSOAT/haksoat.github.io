@@ -1,0 +1,14 @@
+# main links
+main:
+  - title: "Blog"
+    url: /blog/
+  - title: "Resume"
+    url: https://res.cloudinary.com/haks/image/upload/v1554856551/HabeebShopeju.pdf
+  - title: "Projects"
+    url: /projects/
+  - title: "Activities"
+    url: /activities/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
