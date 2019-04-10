@@ -16,7 +16,7 @@ Hence, I am in search of a software engineering internship opportunity; be it re
 
 I'm patient and have the ability to pay attention to details.
 
-I believe it can help me improve my craft immensely, by working with other talented engineers.
+I believe working with other talented engineers can help me improve my craft immensely.
 
 I'm keen on working on projects in the field of Digital Signal Processing.
 
