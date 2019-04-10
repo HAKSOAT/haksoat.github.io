@@ -4,10 +4,7 @@
 
 layout: single
 ---
-
-# &nbsp;  
-
-# Hello World,
+Hello World,
 
 ## Here's what I want:
 
