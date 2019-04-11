@@ -19,11 +19,11 @@ locale                   : "en-GB"
 title                    : "HAKSOAT"
 title_separator          : "-"
 name                     : "Habeeb Shopeju"
-description              : ""
+description              : "The personal site of Habeeb Kehinde Shopeju"
 url                      : "https://haksoat.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/500x300.png"
 logo                     : https://res.cloudinary.com/haks/image/upload/v1554853108/logohaksoat.png
 masthead_title           : "The HAKSOAT"
 
@@ -37,7 +37,7 @@ author:
   avatar           : https://res.cloudinary.com/haks/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1554855417/IMG_20190219_110629.jpg
   bio              : "I play too much. But I get the job done regardless."
   location         : "Lagos, Nigeria"
-  email            :
+  email            : shopejuh@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -64,9 +64,12 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: NL
 
-#Projects
+#Collections
 collections:
   projects:
+    output: true
+    permalink: /:collection/:path/
+  activities:
     output: true
     permalink: /:collection/:path/
 
@@ -93,9 +96,12 @@ footer:
       url: "https://medium.com/@haksoat"
 
 # Build settings
+# _posts is not included as it is set by default
 include:
   - _pages
   - _projects
+  - _activities
+
 markdown: kramdown
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "contrast"
@@ -135,7 +141,7 @@ defaults:
       type: projects
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       share: true
 
   # _activities
@@ -144,9 +150,12 @@ defaults:
       type: activities
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       share: true
 
+#SEO
+google:
+  search_engine_id: "011346976017231903872:svqz6t7zvgi"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
