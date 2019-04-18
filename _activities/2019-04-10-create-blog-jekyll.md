@@ -55,9 +55,9 @@ I can quickly generate the default Jekyll site with the command:
 Running the command above generated default pages such as the 404, about, index pages.
 However, it only comes with the standard theme called minima. It looked quite dull to me, and since I’m new to Jekyll, I didn’t want to go into playing around with files.
 
-Luckily for me, I came across a site called Minimal Mistakes which is the official site of the Minimal Mistakes theme.
+Luckily for me, I came across the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme.
 
-Since I was a nomad in the land of Jekyll, looking for the best alternatives for themes, I luckily came across the Minimal Mistakes configuration page where I saw the beautiful themes that were available in the Minimal Mistakes theme.
+Since I was a nomad in the land of Jekyll, looking for the best alternatives for themes, and decided to check out its configuration page. I saw the powerful configurations that were available, and was impressed.
 
 It has different themes such as light, dark, dirt, neon, contrast and the full range of options are impressive.
 I also liked from the demo, the fact that I could make my info show on the left side of the page—for desktop users. It was just about the perfect option for me.
