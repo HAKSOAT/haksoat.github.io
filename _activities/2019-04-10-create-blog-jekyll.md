@@ -103,6 +103,7 @@ In this directory, you’ll have the files that make up your pages. Here, you'll
 By post and portfolio pages, I meant pages that will display your blog posts or the projects present in your portfolio.
 
 **The _includes directory**
+
 The files in the _includes directory make up the entire layout of the site, and it's typical to find the header, footer, sidebar files here. When working on your local machine, Jekyll may run fine without you needing the _includes directory.
 But as I learned the hard way, when you deploy to GitHub pages, the site will not build successfully. Every file that was referenced by include in the layout directory needs to be present in the _includes directory.
 
