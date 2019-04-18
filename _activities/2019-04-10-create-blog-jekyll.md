@@ -6,7 +6,6 @@ header:
   overlay_image: https://res.cloudinary.com/haks/image/upload/v1554991771/Webp.net-compress-image.jpg
   caption: "Photo credit: [**MythsAndMountains**](https://mythsandmountains.com)"
 excerpt: "Personal experience on creating a blog using Jekyll and the Minimal Mistakes theme."
-classes: wide
 ---
 
 Hello guys!
@@ -59,7 +58,7 @@ However, it only comes with the standard theme called minima. It looked quite du
 
 Luckily for me, I came across the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme.
 
-Since I was a nomad in the land of Jekyll, looking for the best alternatives for themes, and decided to check out its configuration page. I saw the powerful configurations that were available, and was impressed.
+Since I'm a nomad in the land of Jekyll, looking for the best alternatives for themes, and decided to check out its configuration page. I saw the powerful configurations that were available, and was impressed.
 
 It has different themes such as light, dark, dirt, neon, contrast and the full range of options are impressive.
 I also liked from the demo, the fact that I could make my info show on the left side of the page—for desktop users. It was just about the perfect option for me.
