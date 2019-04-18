@@ -4,7 +4,7 @@ header:
   teaser: https://cdn-images-1.medium.com/max/1200/0*N8RG95bKJnnF-wpL.png
   overlay_image: https://res.cloudinary.com/haks/image/upload/v1554991771/Webp.net-compress-image.jpg
   caption: "Photo credit: [**MythsAndMountains**](https://mythsandmountains.com)"
-excerpt: "Finally made a tech choice for my blog. Sorry Flask and WordPress, Jekyll has my heart."
+excerpt: "Finally got to create my blog. Sorry Flask and WordPress, Jekyll has my heart."
 ---
 
 Hello guys!
@@ -89,6 +89,7 @@ This is the brain of the static site. A lot of changes you’ll be making on the
 It is was in the file that I had to set the site title and description, author description, enable plugins and so much more. I’d advise that you check the contents of the _config.yml of the theme you are working with, as this will help you understand how the contents of the file affect the whole site.
 
 **The _layouts directory**
+
 If you’d be working with Markdown for other parts of the site, you need to be ready to work with HTML here. It is in this directory that the different layouts or outlook of different parts of the site are defined.
 
 For example, you can decide to have a different layout for single pages, archives, posts, portfolios, etc.
