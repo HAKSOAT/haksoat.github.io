@@ -4,7 +4,8 @@ header:
   teaser: https://cdn-images-1.medium.com/max/1200/0*N8RG95bKJnnF-wpL.png
   overlay_image: https://res.cloudinary.com/haks/image/upload/v1554991771/Webp.net-compress-image.jpg
   caption: "Photo credit: [**MythsAndMountains**](https://mythsandmountains.com)"
-excerpt: "Finally got to create my blog. Sorry Flask and WordPress, Jekyll has my heart."
+excerpt: "Personal experience on creating a blog using Jekyll and the Minimal Mistakes theme."
+classes: wide
 ---
 
 Hello guys!
