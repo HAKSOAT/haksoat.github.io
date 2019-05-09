@@ -1,7 +1,6 @@
 ---
 title:  "Creating a Blog With Jekyll"
 last_modified_at: 2019-04-18T18:20:02+01:00
-classes: wide
 header:
   teaser: https://cdn-images-1.medium.com/max/1200/0*N8RG95bKJnnF-wpL.png
   overlay_image: https://res.cloudinary.com/haks/image/upload/v1554991771/Webp.net-compress-image.jpg
