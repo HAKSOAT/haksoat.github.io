@@ -134,6 +134,7 @@ defaults:
       comments: true
       share: true
       related: true
+      toc: true
 
   # _projects
   - scope:
@@ -152,10 +153,19 @@ defaults:
       layout: single
       author_profile: true
       share: true
+      comments: true
+      toc: true
 
 #SEO
 google:
   search_engine_id: "011346976017231903872:svqz6t7zvgi"
+
+# Comments
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "haksoat-github-io"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
