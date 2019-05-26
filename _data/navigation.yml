@@ -3,7 +3,7 @@ main:
   - title: "Blog"
     url: /blog/
   - title: "Projects"
-    url: /projects/
+    url: /activities/projects/
   - title: "Resume"
     url: https://res.cloudinary.com/haks/image/upload/v1558864876/HabeebShopeju.pdf
   - title: "Activities"
