@@ -89,6 +89,9 @@ To get to the end of the internship, you should be ready to work in areas that m
 
 ![portfolio design](https://res.cloudinary.com/haks/image/upload/v1559691861/portdes.png)
 
+I couldn't believe my eyes when I saw the design task, all interns had to create a design.
+{: .text-center}
+
 ## Your Gains
 The HNG internship is definitely one for every aspiring software developer and designer to try out. You have it all to gain and nothing to lose.
 
