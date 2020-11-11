@@ -34,8 +34,8 @@ twitter:
 # Site Author
 author:
   name             : "Habeeb Shopeju"
-  avatar           : https://res.cloudinary.com/haks/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1554855417/IMG_20190219_110629.jpg
-  bio              : "I play too much. But I get the job done regardless."
+  avatar           : https://res.cloudinary.com/haks/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1580938361/DSC_0861.jpg
+  bio              : "Software Engineer"
   location         : "Lagos, Nigeria"
   email            : shopejuh@gmail.com
   links:
@@ -54,9 +54,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/haksoat"
-    - label: "Medium"
-      icon: "fab fa-fw fa-medium"
-      url: "https://medium.com/@haksoat"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/habeebshopeju"
 
 #Pagination
 permalink: /:categories/:title/
@@ -66,12 +66,6 @@ timezone: NL
 
 #Collections
 collections:
-  projects:
-    output: true
-    permalink: /:collection/:path/
-  activities:
-    output: true
-    permalink: /:collection/:path/
 
 #Footer links
 footer:
@@ -91,16 +85,14 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/haksoat"
-    - label: "Medium"
-      icon: "fab fa-fw fa-medium"
-      url: "https://medium.com/@haksoat"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/habeebshopeju"
 
 # Build settings
 # _posts is not included as it is set by default
 include:
   - _pages
-  - _projects
-  - _activities
 
 markdown: kramdown
 theme: minimal-mistakes-jekyll
@@ -134,26 +126,6 @@ defaults:
       comments: true
       share: true
       related: true
-      toc: true
-
-  # _projects
-  - scope:
-      path: ""
-      type: projects
-    values:
-      layout: single
-      author_profile: true
-      share: true
-
-  # _activities
-  - scope:
-      path: ""
-      type: activities
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
       toc: true
 
 #SEO

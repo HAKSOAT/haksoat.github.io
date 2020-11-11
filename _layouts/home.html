@@ -10,16 +10,4 @@ layout: archive
   {% include archive-single.html %}
 {% endfor %}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_activities | default: "Recent Activities" }}</h3>
-
-{% for post in site.activities %}
-  {% include archive-single.html %}
-{% endfor %}
-
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_projects | default: "Recent Projects" }}</h3>
-
-{% for post in site.projects %}
-  {% include archive-single.html %}
-{% endfor %}
-
 {% include paginator.html %}

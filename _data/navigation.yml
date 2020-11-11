@@ -2,12 +2,8 @@
 main:
   - title: "Blog"
     url: /blog/
-  - title: "Projects"
-    url: /activities/projects/
   - title: "Resume"
     url: https://res.cloudinary.com/haks/image/upload/v1604251722/HabeebShopeju.pdf
-  - title: "Activities"
-    url: /activities/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

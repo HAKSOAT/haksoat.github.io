@@ -6,6 +6,8 @@ header:
   overlay_image: https://res.cloudinary.com/haks/image/upload/v1559697900/Shooting-HNG5-Stars.jpg
   caption: "Photo credit: **Dymphna**"
 excerpt: "Lessons learned from the HNG 5.0 internship. The overall experience and tips that may help future interns survive the internship."
+tags:
+  - images
 ---
 
 

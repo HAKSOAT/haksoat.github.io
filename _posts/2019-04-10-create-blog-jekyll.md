@@ -6,6 +6,8 @@ header:
   overlay_image: https://res.cloudinary.com/haks/image/upload/v1554991771/Webp.net-compress-image.jpg
   caption: "Photo credit: [**MythsAndMountains**](https://mythsandmountains.com)"
 excerpt: "Personal experience on creating a blog using Jekyll and the Minimal Mistakes theme."
+tags:
+  - images
 ---
 
 Hello guys!
