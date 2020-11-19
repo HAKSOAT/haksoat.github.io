@@ -126,7 +126,7 @@ let ydiff = y1-y2;
 let distance = Math.sqrt(xdiff ** 2 + ydiff ** 2);
 {% endhighlight %}
 
-Then for some business reason, the Euclidean distance is not what is needed anymore but the Manhattan distance—you don't have to be concerned what Manhattan or Euclidean distance means. All that matters is that the code needs to change.
+Then for some business reason, the Euclidean distance is not what is needed anymore but the Manhattan distance—you don't have to be concerned about what Manhattan or Euclidean distance means. All that matters is that the code needs to change.
 
 
 {% highlight javascript %}
@@ -152,8 +152,8 @@ let distance = xdiff + ydiff;
 Someone new to the code base will be left confused as to which is the desired operation; Euclidean or Manhattan.
 
 ## Wrapping Up
-In this article, I have discussed my reasons for avoiding comments which are that it promotes the use of poor variable names, breeds code smell and makes code harder to maintain.
+In this article, I have discussed my reasons for avoiding comments: it promotes the use of poor variable names, breeds code smell and makes code harder to maintain.
 
-Now you may have different opinion, I expect that you may agree or disagree with some or even all of my points. So, I will like you to share your thoughts.
+Now you may have a different opinion, I expect that you may agree or disagree with some or even all of my points. So, I will like you to share your thoughts.
 
 There's going to be a second part to this article, there I will talk about what caused a change of perspective and my current approach to writing comments. But before then, what has your experience writing comments and working with comments written by others been like?
