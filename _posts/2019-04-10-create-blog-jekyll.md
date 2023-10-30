@@ -7,7 +7,7 @@ header:
   caption: "Photo credit: [**MythsAndMountains**](https://mythsandmountains.com)"
 excerpt: "Personal experience on creating a blog using Jekyll and the Minimal Mistakes theme."
 tags:
-  - images
+  - technical
 ---
 
 Hello guys!

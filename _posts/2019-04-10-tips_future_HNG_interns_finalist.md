@@ -7,7 +7,7 @@ header:
   caption: "Photo credit: **Dymphna**"
 excerpt: "Lessons learned from the HNG 5.0 internship. The overall experience and tips that may help future interns survive the internship."
 tags:
-  - images
+  - experience
 ---
 
 
