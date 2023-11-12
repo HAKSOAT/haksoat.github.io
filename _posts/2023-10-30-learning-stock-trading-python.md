@@ -34,8 +34,7 @@ I do consider trying to win in the stock market to be “play”, and I intend t
 
 Here are the things I hope to write about in the coming days:
 
-- What Goes into Building a Trading System?
-- Portfolio Optimization, What I Learned from Books
+- [What Goes into Building a Trading System?](http://haksoat.com/building-trading-system/)
 - It's Like The Bloomberg Terminal, But Open Source, My Experience using OpenBB
 - I Saw Many Things, The Challenges I Faced Trying to Build a Trading System
 - I Built a Trading212 Package.
@@ -43,6 +42,7 @@ Here are the things I hope to write about in the coming days:
 - How to Build a Custom Broker in Backtrader.
 - How to Build a Custom Data Source in Backtrader.
 - Classifying Mean Reversion: My Attempt at Improving a Naive Mean Reversion Algorithm
+- Portfolio Optimization, What I Learned from Books
 - Book Review: Lessons Learnt from "More Money Than God"
 
 See you all in those articles 👋🏾. 
