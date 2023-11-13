@@ -287,7 +287,7 @@ $$\frac{52-17}{52} * 100 = 67\%$$
 
 A drawdown analysis is useful when combined with a backtest as it gives a good picture of the potential experience in a live trading scenario. 
 
-Will the trader have the ability to stomach such a drawback percentage? Can the trader endure a drawback for such periods? How will the trader handle a situation where the stock never recovers? Is it a good idea to decide what the maximum drawback is?
+Will the trader have the ability to stomach such a drawdown percentage? Can the trader endure a drawdown for such periods? How will the trader handle a situation where the stock never recovers? Is it a good idea to decide what the maximum drawdown is?
 
 I have not applied this knowledge in my side project yet, but it is one of the most interesting concepts I learned about risk management.
 
