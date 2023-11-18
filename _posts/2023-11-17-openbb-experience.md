@@ -1,6 +1,6 @@
 ---
 title:  "It’s Like The Bloomberg Terminal, But Open Source, My Experience using OpenBB"
-last_modified_at: 2023-10-30T01:20:02+01:00
+last_modified_at: 2023-11-18T01:20:02+01:00
 header:
   teaser: http://res.cloudinary.com/haks/image/upload/v1700336912/HAKSOAT_Blog/openbb-experience/openbb-asset.png
   overlay_image: http://res.cloudinary.com/haks/image/upload/v1700337803/HAKSOAT_Blog/openbb-experience/openbb-skies.webp
@@ -56,11 +56,11 @@ I believe one of the best decisions made by the OpenBB team was to return reques
 ### Challenges
 While I think OpenBB is nice, I experienced some challenges while using it. These are:
 
-- News window limitation: I was hoping to experiment with news data for predicting stock prices. However, I quickly realized that the API only returned very recent news data. For example, on checking $TSLA news on November 16, 2023, the oldest news was from November 2, 2023. I think the tool being free means little room to store lots of data, so I hope the Pro version tackles this.
+- **News window limitation**: I was hoping to experiment with news data for predicting stock prices. However, I quickly realized that the API only returned very recent news data. For example, on checking $TSLA news on November 16, 2023, the oldest news was from November 2, 2023. I think the tool being free means little room to store lots of data, so I hope the Pro version tackles this.
 
-- Data load time: It took a long time to load data across say 15-year timespans, and there was no caching involved. Hence, for backtesting, this process became prohibitively slow especially when running the backtests repeatedly. My solution here was to implement some caching myself, but I believe it would have been more efficient to have this implemented on their end.
+- **Data load time**: It took a long time to load data across say 15-year timespans, and there was no caching involved. Hence, for backtesting, this process became prohibitively slow especially when running the backtests repeatedly. My solution here was to implement some caching myself, but I believe it would have been more efficient to have this implemented on their end.
 
-- Reliability: I experienced the SDK breaking when I made a lot of requests for stock prices. Say I have a list of ticker symbols, I would usually loop through them individually to get the needed data. I do not believe this should be an issue as they are not being made concurrently or in parallel. However, I realized the API would break with errors relating to the ticker symbol not existing, when in fact it did exist. My bypass was to add `time.sleep` in between the requests, but the implication was that it took longer to get all the data.
+- **Reliability**: I experienced the SDK breaking when I made a lot of requests for stock prices. Say I have a list of ticker symbols, I would usually loop through them individually to get the needed data. I do not believe this should be an issue as they are not being made concurrently or in parallel. However, I realized the API would break with errors relating to the ticker symbol not existing, when in fact it did exist. My bypass was to add `time.sleep` in between the requests, but the implication was that it took longer to get all the data.
 
 ## Final Thoughts
 I am looking forward to the progress the team makes on the project in the coming year. I intend to continue to use the tool as infrastructure for my stock trading experiments. While I have written about the challenges faced using the SDK, I realize that I can very well contribute to the project and give a helping hand to the team. I hope I can do a bit of this when I have some free time. Let me take this opportunity to encourage you to contribute to [OpenBB](https://github.com/OpenBB-finance/OpenBBTerminal) if you are looking to do some open-source work.

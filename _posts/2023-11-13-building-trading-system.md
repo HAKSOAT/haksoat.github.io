@@ -1,6 +1,6 @@
 ---
 title:  "What Goes Into Building a Trading System"
-last_modified_at: 2023-10-30T01:20:02+01:00
+last_modified_at: 2023-11-13T01:20:02+01:00
 header:
   teaser: http://res.cloudinary.com/haks/image/upload/v1699747884/HAKSOAT_Blog/building-trading-system/stock-drawdown.png
   overlay_image: http://res.cloudinary.com/haks/image/upload/v1699823654/HAKSOAT_Blog/building-trading-system/blue-sky.png
@@ -47,19 +47,19 @@ however, it was free and I can't complain much.
 
 There are a couple of factors that should influence your choice to go with a data source. These are:
 
-- Reliability: The data source needs to reliably provide data. Sadly, it is not a given that data sources will dependably serve requests. For different reasons, it is not uncommon for the APIs provided by cheap data sources to be broken. In an automated trading system, this can be catastrophic, especially when you have open positions.
+- **Reliability**: The data source needs to reliably provide data. Sadly, it is not a given that data sources will dependably serve requests. For different reasons, it is not uncommon for the APIs provided by cheap data sources to be broken. In an automated trading system, this can be catastrophic, especially when you have open positions.
 
-- Frequency: The frequency of data from the data source determines the kind of algorithms or approaches you take. Some data sources only provide hourly or daily data. If your algorithm requires data as it comes in per minute, but your data source only provides data per hour, this won't be compatible.
+- **Frequency**: The frequency of data from the data source determines the kind of algorithms or approaches you take. Some data sources only provide hourly or daily data. If your algorithm requires data as it comes in per minute, but your data source only provides data per hour, this won't be compatible.
 
-- Accuracy: Different data sources may provide varying data prices for the same stock. There are many reasons for these deviations, some include adjusting the prices for dividends, and errors from processing numbers by the data providers. It is hard to tell if the data is accurate as this problem is only visible when a comparison is done. That said, it is important to ensure that the data obtained from your data source is accurate.
+- **Accuracy**: Different data sources may provide varying data prices for the same stock. There are many reasons for these deviations, some include adjusting the prices for dividends, and errors from processing numbers by the data providers. It is hard to tell if the data is accurate as this problem is only visible when a comparison is done. That said, it is important to ensure that the data obtained from your data source is accurate.
 
-- Promptness: The stock market is always on the move, hence it is important for the data source to stream data as soon as it becomes available. For example, if the algorithm works on hourly data, but it takes more than an hour to gain access to the data, this information is already stale. As a result, you may be making the wrong decisions acting on such data as though it is current.
+- **Promptness**: The stock market is always on the move, hence it is important for the data source to stream data as soon as it becomes available. For example, if the algorithm works on hourly data, but it takes more than an hour to gain access to the data, this information is already stale. As a result, you may be making the wrong decisions acting on such data as though it is current.
 
-- Market Presence: The [NASDAQ](https://en.wikipedia.org/wiki/Nasdaq) and [NYSE](https://en.wikipedia.org/wiki/New_York_Stock_Exchange) are two of the most popular exchanges in the world and many data providers will have data for stocks listed there. However, you may be interested in trading in stocks on other exchanges such as the [London Stock Exchange](https://en.wikipedia.org/wiki/London_Stock_Exchange) and face difficulty finding data sources that cater to them. It is also possible to have cases where certain securities are not available despite the exchange being supported.
+- **Market Presence**: The [NASDAQ](https://en.wikipedia.org/wiki/Nasdaq) and [NYSE](https://en.wikipedia.org/wiki/New_York_Stock_Exchange) are two of the most popular exchanges in the world and many data providers will have data for stocks listed there. However, you may be interested in trading in stocks on other exchanges such as the [London Stock Exchange](https://en.wikipedia.org/wiki/London_Stock_Exchange) and face difficulty finding data sources that cater to them. It is also possible to have cases where certain securities are not available despite the exchange being supported.
 
-- Variety: When it comes to stock trading, the ticker data is the most common; such ticker data usually includes the stock price, volume, high, and low during a specific period. However, there can be other types of data such as news, social media, earnings reports, industry performance, etc. If you intend to make use of data outside stock prices in making trading decisions, it is important to have a data source for such data.
+- **Variety**: When it comes to stock trading, the ticker data is the most common; such ticker data usually includes the stock price, volume, high, and low during a specific period. However, there can be other types of data such as news, social media, earnings reports, industry performance, etc. If you intend to make use of data outside stock prices in making trading decisions, it is important to have a data source for such data.
 
-- Delistings: [Survivor's bias](https://www.investopedia.com/terms/s/survivorshipbias.asp) is something to be wary of when building trading systems. The absence of delisted stocks can lead to such a bias. When stocks are delisted, their data is often removed from the index by data providers. The implication of this is that you would never have an idea what patterns lead to stocks being removed from an exchange, and if it happens in the future, there will be a near-zero chance of seeing it coming.
+- **Delistings**: [Survivor's bias](https://www.investopedia.com/terms/s/survivorshipbias.asp) is something to be wary of when building trading systems. The absence of delisted stocks can lead to such a bias. When stocks are delisted, their data is often removed from the index by data providers. The implication of this is that you would never have an idea what patterns lead to stocks being removed from an exchange, and if it happens in the future, there will be a near-zero chance of seeing it coming.
 
 The factors above are those I experienced while searching for data sources and when making use of [the sole data source](https://github.com/OpenBB-finance/OpenBBTerminal) in my side project. Everything relating to the data is crucial as it is the foundation upon which the other components are built. Data influences the algorithms, backtesting, capital management, risk management, and interaction with the broker.
 
@@ -180,17 +180,17 @@ The bar set by Interactive Brokers did not put me off, as they only had a minimu
 
 Like the data source, you do not have control over the broker component as it is usually an external part of the trading set-up. There are also a couple of things to watch out for in a broker:
 
-- Commission per trade: You do not want to pay a lot of money per trade if your algorithm requires lots of transactions. Some brokers charge a monthly fee instead. Some brokers do not charge anything whatsoever, but you may be paying for their services somehow through marked-up security prices or slow execution speed.
+- **Commission per trade**: You do not want to pay a lot of money per trade if your algorithm requires lots of transactions. Some brokers charge a monthly fee instead. Some brokers do not charge anything whatsoever, but you may be paying for their services somehow through marked-up security prices or slow execution speed.
 
-- Accuracy of data used by the broker: If the data relied upon by the broker is erroneous, then such errors will propagate into the actual values of securities when you place an order.
+- **Accuracy of data used by the broker**: If the data relied upon by the broker is erroneous, then such errors will propagate into the actual values of securities when you place an order.
 
-- Speed of placing trades: If your algorithm is reliant on trades being executed in the shortest time possible, this becomes an important factor.
+- **Speed of placing trades**: If your algorithm is reliant on trades being executed in the shortest time possible, this becomes an important factor.
 
-- The availability of paper trading functionality: The availability of such functionality makes it possible to test your algorithm and see how your trades may perform in a live environment. However, you are not using actual funds in a paper environment.
+- **The availability of paper trading functionality**: The availability of such functionality makes it possible to test your algorithm and see how your trades may perform in a live environment. However, you are not using actual funds in a paper environment.
 
-- Presence or absence of leverage depending on your preference: If you are hoping to take advantage of margin in your trading strategy, it is necessary to confirm that the broker offers such services.
+- **Presence or absence of leverage depending on your preference**: If you are hoping to take advantage of margin in your trading strategy, it is necessary to confirm that the broker offers such services.
 
-- Availability of an API: If you intend to place trades automatically, then the broker needs to provide an API so you can place trades through code. Not all brokers have an API, so this is something to watch out for.
+- **Availability of an API**: If you intend to place trades automatically, then the broker needs to provide an API so you can place trades through code. Not all brokers have an API, so this is something to watch out for.
 
 In my side project, I ended up making use of a free trading platform called [Trading212](https://www.trading212.com/).
 This was
