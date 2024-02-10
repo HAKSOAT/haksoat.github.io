@@ -36,11 +36,9 @@ Here are the things I hope to write about in the coming days:
 
 - [What Goes into Building a Trading System?](http://haksoat.com/building-trading-system/)
 - [It's Like The Bloomberg Terminal, But Open Source, My Experience using OpenBB](http://haksoat.com/openbb-experience/)
-- The Challenges I Faced Trying to Build a Trading System
-- I Built a Trading212 Package.
+- I Reverse-Engineered Trading212.
 - Building Custom Components in Backtrader.
 - Classifying Mean Reversion: My Attempt at Improving a Naive Mean Reversion Algorithm
 - Portfolio Optimization, What I Learned from Books
-- Book Review: Lessons Learnt from "More Money Than God"
 
 See you all in those articles 👋🏾. 
