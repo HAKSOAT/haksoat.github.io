@@ -342,4 +342,4 @@ If you have a project where you are looking to reverse-engineer web APIs and fee
 Next steps for me will be to plug this package into my existing [Backtrader](https://www.backtrader.com/) setup and use in trading algorithms, demo environments then slowly transitioning to the live environments. 
 On the side, I will gradually clean up and add more documentation to the package, then publish on PyPi, so it is easily accessible by others.
 
-Side note: From writing my last article on OpenBB, I got some feedback on how it is possible to purchase stocks using MQL5. However, on checking the website, I do not quite understand how to go about this. So if you read till this point and have used MQL5 to trade stocks, please help me out.
+Side note: From writing [my last article on OpenBB]({{ site.url }}/openbb-experience/), I got some feedback on how it is possible to purchase stocks using MQL5. However, on checking the website, I do not quite understand how to go about this. So if you read till this point and have used MQL5 to trade stocks, please help me out.
