@@ -32,11 +32,11 @@ Do note that all of my learnings were done from a point of curiosity, not necess
 After writing these articles, I intend to pause on this adventure and try out other ideas. 
 I do consider trying to win in the stock market to be “play”, and I intend to pick up from where I stopped and continue playing in the future.
 
-Here are the things I hope to write about in the coming days:
+Here are the things I hope to write about in the coming weeks, if chanced:
 
-- [What Goes into Building a Trading System?](http://haksoat.com/building-trading-system/)
-- [It's Like The Bloomberg Terminal, But Open Source, My Experience using OpenBB](http://haksoat.com/openbb-experience/)
-- I Reverse-Engineered Trading212.
+- [What Goes into Building a Trading System?]({{ site.url }}/building-trading-system/)
+- [It's Like The Bloomberg Terminal, But Open Source, My Experience using OpenBB]({{ site.url }}/openbb-experience/)
+- [I Reverse-Engineered Trading212's Web APIs]({{ site.url }}/reverse-engineering-trading212/)
 - Building Custom Components in Backtrader.
 - Classifying Mean Reversion: My Attempt at Improving a Naive Mean Reversion Algorithm
 - Portfolio Optimization, What I Learned from Books

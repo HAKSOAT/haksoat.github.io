@@ -11,7 +11,7 @@ tags:
 ---
 
 
-Hello all, this is the second article in [this series](https://haksoat.com/learning-stock-trading-python/). In this article, I will write about OpenBB and my experience using it as a data source for a trading system. I struggled to find a data source that is easy to use, but I can imagine there are tools out there that serve this purpose. If you know of or have used any, I would appreciate a mention in the comments.
+Hello all, this is the second article in [this series]({{ site.url }}/learning-stock-trading-python/). In this article, I will write about OpenBB and my experience using it as a data source for a trading system. I struggled to find a data source that is easy to use, but I can imagine there are tools out there that serve this purpose. If you know of or have used any, I would appreciate a mention in the comments.
 
 I know that this article is supposed to be about OpenBB. However, permit me to divert briefly and write about the Bloomberg Terminal. The [Bloomberg Terminal](https://en.wikipedia.org/wiki/Bloomberg_Terminal) is a financial software by Bloomberg L.P. It is widely known for its large array of financial functionalities and notably provides data such as news, ticker data, financial statements, economic indicators, etc. This data richness makes it very valuable to financial analysts, investment bankers, and traders, just to mention a few. But there is a huge price to pay. It is said that [the Bloomberg Terminal costs around $24,000 per year](https://www.investopedia.com/articles/professionaleducation/11/bloomberg-terminal.asp). This price is a huge deterrent for non-professionals and trading enthusiasts. Given this context, let's see what OpenBB is about.
 

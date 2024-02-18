@@ -11,7 +11,7 @@ tags:
 ---
 
 
-Hello all, this is the first article in [this series](https://haksoat.com/learning-stock-trading-python/).
+Hello all, this is the first article in [this series]({{ site.url }}/learning-stock-trading-python/).
 I will be writing about my learnings about some of the key components that go into building a trading system.
 I realize that such a system is complex and there are some components involved that I may have left out;
 in this case, I would appreciate briefly mentioning them in the comments.
@@ -293,7 +293,7 @@ I have not applied this knowledge in my side project yet, but it is one of the m
 
 ## Final Points
 
-In this article, I discussed some of the components one needs to think about when building a trading system. All of these concepts I learned through reading books and taking a course, all of which I will point out in the [further reading section](#further-reading). I also shared my experiences working with the various concepts. I intend to [write more articles about my learnings](https://haksoat.com/learning-stock-trading-python/) and they cover some of the components discussed in this article.
+In this article, I discussed some of the components one needs to think about when building a trading system. All of these concepts I learned through reading books and taking a course, all of which I will point out in the [further reading section](#further-reading). I also shared my experiences working with the various concepts. I intend to [write more articles about my learnings]({{ site.url }}/learning-stock-trading-python/) and they cover some of the components discussed in this article.
 
 
 ## Further Reading
