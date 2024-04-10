@@ -2,9 +2,9 @@
 main:
   - title: "Blog"
     url: /blog/
-  - title: "Resume"
-    url: http://res.cloudinary.com/haks/image/upload/v1708298460/HabeebShopeju.pdf
   - title: "Talks"
     url: /talks/
+  - title: "Resume"
+    url: http://res.cloudinary.com/haks/image/upload/v1708298460/HabeebShopeju.pdf
   # - title: "Sitemap"
   #   url: /sitemap/
