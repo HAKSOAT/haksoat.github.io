@@ -1,6 +1,6 @@
 ---
 title:  "I Reverse-Engineered Trading212's Web APIs"
-last_modified_at: 2023-11-18T01:20:02+01:00
+last_modified_at: 2024-02-18T01:20:02+01:00
 header:
   teaser: http://res.cloudinary.com/haks/image/upload/v1708288153/HAKSOAT_Blog/reverse-engineering-trading212/tradingTOT-teaser.png
   overlay_image: http://res.cloudinary.com/haks/image/upload/v1700337803/HAKSOAT_Blog/openbb-experience/openbb-skies.webp
