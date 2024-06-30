@@ -9,6 +9,15 @@ toc_sticky: true
 
 This page contains a list of some of the public talks I have given.
 
+## 2024
+
+### Machine Learning Frameworks for the Generative AI Era
+
+Event: Google I/O Extended Birmingham
+
+Resources: [Slides](https://docs.google.com/presentation/d/15V0pfOXmud7Fis7XrUZpTGnsjF1uLfo5F5wzP-PgU8k)
+
+
 ## 2023
 
 ### Lessons from Hacking Together a Customer Research Tool
