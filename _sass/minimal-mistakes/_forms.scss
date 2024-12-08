@@ -358,8 +358,13 @@ select:focus {
   z-index: 11;
 }
 
-form.ml-block-form {
+// Mailerlite Embeddingform
+.ml-form-embedContainer .ml-block-form {
   background-color: inherit;
   margin: 0;
   padding: 0;
+}
+
+.ml-form-embedContainer {
+  padding: 1.5em 0;
 }

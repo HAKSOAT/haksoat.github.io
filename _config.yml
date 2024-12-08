@@ -204,6 +204,11 @@ comments:
   disqus:
     shortname: "haksoat-github-io"
 
+# Newsletter
+mailerlite:
+  embedded_form_id: "X4lZQ0"
+  account_id: "1220455"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -60,13 +60,18 @@ layout: default
 
       {% if page.share %}{% include social-share.html %}{% endif %}
 
-      {% include post_pagination.html %}
+<!--      HAKSOAT Change: Removing pagination in this case as it is not needed.-->
+<!--      {% include post_pagination.html %}-->
     </div>
 
     {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
       {% include comments.html %}
     {% endif %}
   </article>
+
+  {% if page.collection == 'posts' %}
+    {% include mailerlite/embedded_form.html %}
+  {% endif %}
 
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
