@@ -7,7 +7,7 @@ header:
   caption: "Photo credit: [**DALL-E**](https://openai.com/dall-e-3)"
 excerpt: "I reverse-engineered Trading212's web APIs, then built a Python package for programmatic trading on the platform."
 tags:
-  - stock-trading
+  - stock-trading-project
 ---
 
 Hi there, this is the third article I am writing from the [learning about stock trading with python]({{ site.url }}/learning-stock-trading-python/) series. 

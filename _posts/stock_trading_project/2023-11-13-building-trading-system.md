@@ -7,7 +7,7 @@ header:
   caption: "Photo credit: [**DALL-E**](https://openai.com/dall-e-3)"
 excerpt: "A look into the high-level components needed in a trading system."
 tags:
-  - stock-trading
+  - stock-trading-project
 ---
 
 

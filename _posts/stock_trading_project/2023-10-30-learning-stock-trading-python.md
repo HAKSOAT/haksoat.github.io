@@ -7,7 +7,7 @@ header:
   caption: "Photo credit: [**MythsAndMountains**](https://mythsandmountains.com)"
 excerpt: "An exploration of automating the trading of stocks using Python."
 tags:
-  - stock-trading
+  - stock-trading-project
 ---
 Hello all,
 

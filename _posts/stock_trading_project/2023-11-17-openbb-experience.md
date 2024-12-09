@@ -7,7 +7,7 @@ header:
   caption: "Photo credit: [**DALL-E**](https://openai.com/dall-e-3)"
 excerpt: "A review of OpenBB and my experience using it."
 tags:
-  - stock-trading
+  - stock-trading-project
 ---
 
 
