@@ -5,7 +5,7 @@ header:
   teaser: https://res.cloudinary.com/haks/image/upload/v1733714314/HAKSOAT_Blog/guiding-principles-ml/Principles_for_Machine_Learning.png
   overlay_image: http://res.cloudinary.com/haks/image/upload/v1700337803/HAKSOAT_Blog/openbb-experience/openbb-skies.webp
   caption: "Photo credit: [**DALL-E**](https://openai.com/dall-e-3)"
-excerpt: "Knowing the data and its transformations is a principle that has significantly contributed to my work as a Machine Learning Engineer. 
+excerpt: "Knowing the data and its transformations is a principle that has significantly helped my work as a Machine Learning Engineer. 
 This article examines the importance of understanding the nuances of one's data and covers nine other valuable principles."
 tags:
   - career
