@@ -11,6 +11,14 @@ This page contains a list of some of the public talks I have given.
 
 ## 2024
 
+### Contributing to Open Source Machine Learning Libraries
+
+Event: Machine Learning Lagos
+
+Resources: [Recording](https://youtu.be/T4s7BdWQEnc) | [Slides](https://docs.google.com/presentation/d/1OhhzAeXnk8iDA7Ur57HrGrQ2JSe-l0AEkYEKCIDK7gk) 
+
+{% include video id="T4s7BdWQEnc" provider="youtube" %}
+
 ### Machine Learning Frameworks for the Generative AI Era
 
 Event: Google I/O Extended Birmingham
