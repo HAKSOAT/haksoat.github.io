@@ -13,7 +13,7 @@ tags:
 
 Hello, dear reader; it has been seven months since my last article on [Why Log Returns](https://haksoat.com/why-log-returns/). This time, I am doing some introspection on guiding principles that have helped me grow as a machine learning engineer. Such introspections will usually rot in my private notes, but I hope there will be some value in sharing this time. Many of these ideas originate from others through their writeups and speeches, and I am immensely grateful for their willingness to share.
 
-![Isaac Newton Quote](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc3Q75Pujg6pOxGKPD9H-2VjGxIaEqzZTm5zb5SD8ypNmaDz5qYNzuBfb29PZQKX9lDsXPVhGJgXiU0SHq8wUy-sPzQFN3Gz1dhC8lKYRQ0f5tGjPWMk37wlF1vwM4MNXKlZnU_Hw?key=2eHzjnmU1Wy8awMNLrUxoQGx)
+![Isaac Newton Quote](https://res.cloudinary.com/haks/image/upload/v1734828463/HAKSOAT_Blog/guiding-principles-ml/isaac-newton-quote.jpg)
 
 
 In no specific order, the principles are:
@@ -44,7 +44,7 @@ The story is much different now. I have a checklist for almost everything, wheth
 
 Here is a screenshot of one of my checklists when working on Ahnlich.
 
-![Screenshot of my checklist.](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfgvBkcDXxUU0ixF-2_TWCwrVj1GURozvXgKEESfib_8eUXFay9VYiHCP5fPPk7S8mSSvkDjdk6rJUV9ZHE_Rl43mtXZyWoK-XiQSspoqHfAibmuY_Si5JFEKV_LhZws3iygl-MYQ?key=2eHzjnmU1Wy8awMNLrUxoQGx)
+![Screenshot of my checklist.](https://res.cloudinary.com/haks/image/upload/v1734828632/HAKSOAT_Blog/guiding-principles-ml/checklist-screenshot.png)
 
 My approach to creating a checklist is to define my approach to achieving the task; then, I make the requisite actions or desired attributes of the end goal into entries on the list. If you look at the list sample above, you will see that the list is also nested; this is because I think about the actions necessary for each action until I don't feel any uneasiness about how to accomplish an item.
 
@@ -113,7 +113,7 @@ It is easier to spot interesting things when you have some expectation of the en
 As for documenting things, writing, be it actual notes, short points, or sketches, is incredibly beneficial. While I have a good memory, I often forget things I do not expect to forget. Writing things down ensures I have something to return to without panicking when that happens. Documenting things has benefited me in so many ways, but one of my favourite benefits is that it makes it easy for me to do some retrospection. For example, if I want to think of ways to improve a system or process, it is easier to have a document containing my observations and start from there.
 
   
-![Chinese Proverb on memory](https://lh7-rt.googleusercontent.com/docsz/AD_4nXecxHbW-0Kl0t7w80kpAF4iiURE56rRpNKzahTPiJdIg94peveTJmpXVVYNBG56e43wwMj4IE_66oHkvwUcDmeZfG9eABhE-_8byrCT9I6XazgBz1yoIM-EKkzGoZHLd1dLL3i_LA?key=2eHzjnmU1Wy8awMNLrUxoQGx)  
+![Chinese Proverb on memory](https://res.cloudinary.com/haks/image/upload/v1734828463/HAKSOAT_Blog/guiding-principles-ml/chinese-proverb-ink-memory.png)  
 
 Why do I have "observe and document" as one point?
 
@@ -128,7 +128,7 @@ My answer is that it depends: If I am able to start observing without writing an
 
 I believe every machine learning engineer will learn the concept of changing one thing at a time, either from experience or through a resource—as you will in some minutes if you did not know of it previously. My first encounter with this idea in writing was through the book [9 Rules of Debugging](https://www.amazon.co.uk/Debugging-Indispensable-Software-Hardware-Problems/dp/0814474578), and it has stuck ever since. The principle is pretty simple: change one thing, then test to see if it works or how it works.
 
-![Agans' Rules for Debugging](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdRde5YJ6q4E810vZ9YlYVbvuLmT2rtwLdYg665wv56m4umbzQ-hic7Wg6Pxf2Vft3OaBA85Cr3EOzj3tD3G5UMmH9xXl20olZRUAxGCgcLzPfkzzUZ7jPhrBn2idqdzWgVZXeEVA?key=2eHzjnmU1Wy8awMNLrUxoQGx)
+![Agans' Rules for Debugging](https://res.cloudinary.com/haks/image/upload/v1734828463/HAKSOAT_Blog/guiding-principles-ml/rules-for-debugging.png)
 
 When debugging, some scenarios require changing various parts of your code to see if they will fix the error or reveal the root cause. The idea with changing one thing at a time in this context is that you should be able to tell the effects of your changes, especially concerning getting a fix in. Contrast testing one change at a time (reverting if it does not help) with testing only after making five changes (none of those changes helps fix the issue); you will find out that the latter messes things up quite quickly.
 
