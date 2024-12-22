@@ -1,11 +1,11 @@
 ---
 title:  "We are working on Ahnlich, a Database to Aid Semantic Search"
-last_modified_at: 2023-12-21T01:20:02+01:00
+last_modified_at: 2024-12-21T01:20:02+01:00
 header:
-  teaser: http://res.cloudinary.com/haks/image/upload/v1699747884/HAKSOAT_Blog/building-trading-system/stock-drawdown.png
-  overlay_image: http://res.cloudinary.com/haks/image/upload/v1699823654/HAKSOAT_Blog/building-trading-system/blue-sky.png
+  teaser: https://res.cloudinary.com/haks/image/upload/v1734829963/HAKSOAT_Blog/working_ahnlich/ahnlich-logo.jpg
+  overlay_image: https://res.cloudinary.com/drfw1bzcw/image/upload/v1733262252/Ahnlich/hero_f4xrul.webp
   caption: "Photo credit: [**DALL-E**](https://openai.com/dall-e-3)"
-excerpt: "A look into the high-level components needed in a trading system."
+excerpt: "Ahnlich is a suite of tools that help make semantic search possible. This article explains the what, why and what nexts of the project."
 tags:
   - ahnlich
 ---
