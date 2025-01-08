@@ -11,7 +11,7 @@ tags:
   - career
 ---
 
-Hello, dear reader; it has been seven months since my last article on [Why Log Returns](https://haksoat.com/why-log-returns/). This time, I am doing some introspection on guiding principles that have helped me grow as a machine learning engineer. Such introspections will usually rot in my private notes, but I hope there will be some value in sharing this time. Many of these ideas originate from others through their writeups and speeches, and I am immensely grateful for their willingness to share.
+Hello, dear reader; it has been seven months since my last article on [Why Log Returns](/why-log-returns/). This time, I am doing some introspection on guiding principles that have helped me grow as a machine learning engineer. Such introspections will usually rot in my private notes, but I hope there will be some value in sharing this time. Many of these ideas originate from others through their writeups and speeches, and I am immensely grateful for their willingness to share.
 
 ![Isaac Newton Quote](https://res.cloudinary.com/haks/image/upload/v1734828463/HAKSOAT_Blog/guiding-principles-ml/isaac-newton-quote.jpg)
 

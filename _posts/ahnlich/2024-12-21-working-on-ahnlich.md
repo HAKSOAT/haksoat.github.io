@@ -224,12 +224,12 @@ There are a couple of things we are looking to do now that we are done with the 
 
 ## My Ask
 
-The original purpose of me writing this piece was to share what I have been working on for the last couple of months and also share some of the things I learned while working on it. This is similar to how I [shared my learnings from working on a trading system sometime last year](https://haksoat.com/learning-stock-trading-python/), even though I did not get to write all the articles I hoped to write.
+The original purpose of me writing this piece was to share what I have been working on for the last couple of months and also share some of the things I learned while working on it. This is similar to how I [shared my learnings from working on a trading system sometime last year](/learning-stock-trading-python/), even though I did not get to write all the articles I hoped to write.
 
 This time around, I will be writing only three articles about my learnings, and I hope I have the bandwidth to do it this time. The titles will be something in the line of:
 
 - How I Built an Embedding Service in Rust  
-- X Challenges I Didn't Expect While Building an Embedding Service  
+- [Building An Embedding Service: Sharing My Three Surprises](/ahnlich-ai-embedding-service-surprises/)  
 - How to Debug your Embeddings
 
 I will also be asking for two favors; my friends and I would appreciate it if you:

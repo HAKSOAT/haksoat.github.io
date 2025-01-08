@@ -14,7 +14,7 @@ It seems to be a standard and I did not understand why that was the case. I had 
 
 1. To serve as a future reference for myself, when I forget this bit of the fundamentals
 2. To get myself to truly understand it and potentially apply this knowledge to novel situations
-3. To attempt providing an answer to someone (maybe you), that has the burning question “Why log returns?”
+3. To attempt providing an answer to someone (maybe you), that has the burning question "Why log returns?"
 
 Before going in to explain the various concepts, I will like to provide a trivial scenario that will serve as the basis for the breakdown to come. So if at some point, something does not make sense, you can refer to this scenario and hopefully it helps clarify things.
 
@@ -58,7 +58,7 @@ ACO goes from \\$30k to \\$31.5k, giving a positive return of \\$1500 (profit).
 
 BCO goes from \\$10k to \\$11k, giving a positive return of \\$1000 (profit).
 
-The dollar return is pretty easy to calculate and intuitive. However, if one is to ask the question: “looking at the dollar returns, which is the most profitable?” Given the picture of just dollar returns alone, the answer is ACO. 
+The dollar return is pretty easy to calculate and intuitive. However, if one is to ask the question: "looking at the dollar returns, which is the most profitable?" Given the picture of just dollar returns alone, the answer is ACO. 
 However, when you consider the amount invested, this conclusion is misleading. The reason is, the amounts put into the various investments differ. If you were to put in the same \\$30k investment into BCO, it would get to \\$33k, giving a positive return of \\$3000.
 
 Dollar returns can tell you what the gains or losses are, but you need to know the amount of the original investment to get the full story. This shows why simply calculating the dollar returns is limited and does not provide a means to compare returns fairly across various investments, especially when the invested amount differs. This leads us into simple returns.
@@ -75,7 +75,7 @@ $$
 
 So in the first month, ACO increases by 5%, BCO increases by 10%. With these values, you do not need to know how much was invested, to know which investment had better returns.
 
-If one is to ask another question, “given the prices of BCO across three months, `55, 27.5, 55` after a starting price of 50 and having a simple return (percentage) of `10%, -50%, 100%`, what is the compound return after three months?”.
+If one is to ask another question, "given the prices of BCO across three months, `55, 27.5, 55` after a starting price of 50 and having a simple return (percentage) of `10%, -50%, 100%`, what is the compound return after three months?".
 
 Getting the compound return involves multiplying the simple returns, this is because the returns of month 1 influence month 2, the returns of month 1 and 2 influence month 3. If we are to calculate this using simple return (percentage), you will get misleading results.
 
@@ -111,7 +111,7 @@ $$
 \text{new_value} = \text{ratio_return} * \text{old_value}
 $$
 
-Following the format of asking questions, if one is to ask “given the BCO simple return ratios of `1.1, 0.5, 2` what is the monthly average of returns?”
+Following the format of asking questions, if one is to ask "given the BCO simple return ratios of `1.1, 0.5, 2` what is the monthly average of returns?"
 
 In other to calculate this, you may try to use the formula for averages: $\frac{1}{N} * \sum_{i=1}^{N} x_i$.
 
@@ -178,7 +178,7 @@ The scenarios provided so far give context about the various kinds of returns, w
 - Logarithmic transformations are used in various financial formulas and models, so log returns maintain the continuity and provide mathematical convenience.
 - [Stock prices are assumed to have a log normal distribution](https://www.investopedia.com/articles/investing/102014/lognormal-and-normal-distribution.asp), so calculating their log returns helps get a normal distribution which is more suitable for different statistical models with assumptions of such a distribution. NB: The assumption of a log normal distribution for stock prices is not always true, and can be argued to not be a strong case for using log returns.
 
-That’s the end of the article, I hope my explanation has helped provide clear answers to the question “Why log returns?”. If I missed something, I would appreciate a comment to help address this. Also if you have any further questions, they are welcome.
+That’s the end of the article, I hope my explanation has helped provide clear answers to the question "Why log returns?". If I missed something, I would appreciate a comment to help address this. Also if you have any further questions, they are welcome.
 
 ## Further Reading
 

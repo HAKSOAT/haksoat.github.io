@@ -30,7 +30,7 @@ In the next two weeks, I intend to write about some of the knowledge I gained th
 
 Do note that all of my learnings were done from a point of curiosity, not necessarily with the goal of making lots of money from trading; I'm not going to lie though, that would be a great addon. 
 After writing these articles, I intend to pause on this adventure and try out other ideas. 
-I do consider trying to win in the stock market to be “play”, and I intend to pick up from where I stopped and continue playing in the future.
+I do consider trying to win in the stock market to be "play", and I intend to pick up from where I stopped and continue playing in the future.
 
 Here are the things I hope to write about in the coming weeks, if chanced:
 
