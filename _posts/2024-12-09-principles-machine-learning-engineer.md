@@ -1,6 +1,6 @@
 ---
 title:  "10 Principles that Guide My Work as a Machine Learning Engineer"
-last_modified_at: 2024-04-30T01:20:02+01:00
+last_modified_at: 2025-12-09T00:00:00+01:00
 header:
   teaser: https://res.cloudinary.com/haks/image/upload/v1733714314/HAKSOAT_Blog/guiding-principles-ml/Principles_for_Machine_Learning.png
   overlay_image: http://res.cloudinary.com/haks/image/upload/v1700337803/HAKSOAT_Blog/openbb-experience/openbb-skies.webp

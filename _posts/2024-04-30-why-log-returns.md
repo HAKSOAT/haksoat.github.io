@@ -1,6 +1,6 @@
 ---
 title:  "Why Log Returns?"
-last_modified_at: 2024-04-30T01:20:02+01:00
+last_modified_at: 2024-04-30T00:00:00+01:00
 header:
   teaser: https://res.cloudinary.com/haks/image/upload/v1714515244/HAKSOAT_Blog/why-log-returns/why-log-returns-teaser.png.png
   overlay_image: http://res.cloudinary.com/haks/image/upload/v1700337803/HAKSOAT_Blog/openbb-experience/openbb-skies.webp
