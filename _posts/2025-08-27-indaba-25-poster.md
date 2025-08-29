@@ -120,7 +120,7 @@ On attending [Verena Rieser's](https://scholar.google.co.uk/citations?user=4c2k2
 
 ##### Google's Healthcare Models
 
-I attended the [Data Science for Health Workshop](https://ds4healthafrica.github.io/) and it included a hands-on tutorial using a couple of Google's models for Health use cases. These include the [MedGemma](https://huggingface.co/google/medgemma-4b-it), [MedSigLIP](https://huggingface.co/google/medsiglip-448) and [TxGemma Chat](https://huggingface.co/google/txgemma-9b-chat) models. These models are quite useful and have a wide range of applications. For example, MedGemma can be used for things like describing an X-ray, MedSigLIP for creating dense embeddings from medical images to be stored in a database like Ahnlich and TxGemma Chat for predicting properties of therapeutics. 
+I attended the [Data Science for Health Workshop](https://ds4healthafrica.github.io/) and it included a hands-on tutorial using a couple of Google's models for Health use cases. These include the [MedGemma](https://huggingface.co/google/medgemma-4b-it), [MedSigLIP](https://huggingface.co/google/medsiglip-448) and [TxGemma Chat](https://huggingface.co/google/txgemma-9b-chat) models. These models are quite useful and have a wide range of applications. For example, MedGemma can be used for things like describing an X-ray, MedSigLIP for creating dense embeddings from medical images to be [stored in a database like Ahnlich]({{ site.url }}/working-on-ahnlich/) and TxGemma Chat for predicting properties of therapeutics. 
 
 ##### Continual Learning
 
