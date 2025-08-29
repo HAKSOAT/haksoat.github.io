@@ -170,7 +170,7 @@ The main challenges faced in this work include, but are not limited to:
 - Finding an LLM suitable for translating from our target languages to English.
 - Efficiently run LLM inference for the translation tasks on the training data.
 
-I used Manus.ai to vibecode a demo that shows the above use case with our model running in the background.
+I used Manus.ai to vibecode the demo below. It shows the English-Yoruba search use case, with our model running in the background.
 
 ![Semantic Search POC](https://res.cloudinary.com/haks/image/upload/v1756498902/HAKSOAT_Blog/indaba-25/bge-m3-naija-poc.gif){: .align-center}
 
@@ -181,7 +181,7 @@ The demo involves the following things:
 - Using cosine similarity to find the most similar verses to the query.
 - Generating translations from Yoruba to English for highlighted text (the translations generally don't make sense but are useful here).
 
-I did this using Manus.ai and I was quite impressed by the results. A PoC like this is a good use case for vibecoding, as I do not care if it does things the correct way, as long as it works. You can [find the prompt I used in this GitHub Gist](https://gist.github.com/HAKSOAT/0a39edeacd737b8e9e403bc1c049dbd4) if interested.
+I did this using Manus.ai and I was quite impressed by the results. I think a PoC like this is a good use case for vibecoding, as I do not care if it does things the correct way, as long as it works. You can [find the prompt I used in this GitHub Gist](https://gist.github.com/HAKSOAT/0a39edeacd737b8e9e403bc1c049dbd4) if interested.
 
 
 ### The End
