@@ -13,7 +13,7 @@ On December 8, 2025, I was in Lagos to see my father. He had been ill for a coup
 
 One week later, I went for an appointment. While awaiting my turn, I was reading James Dyson's "Against the Odds", a passage that said:
 
-"My father was dead, and his achievement, anyway, was as a classicist. External figures had to count for a father. It is why a man called Jeremy Fry became so important to me, and Sir Hugh Casson, and Anthony Hunt. But they had to be overcome before I could move forward. If I was to push further there had to be new fathers. There had to be Buckminster Fuller, and Brunel."
+> "My father was dead, and his achievement, anyway, was as a classicist. External figures had to count for a father. It is why a man called Jeremy Fry became so important to me, and Sir Hugh Casson, and Anthony Hunt. But they had to be overcome before I could move forward. If I was to push further there had to be new fathers. There had to be Buckminster Fuller, and Brunel."
 
 I remember feeling sad reading those words but little did I know that I was losing my father in those moments. When I finished that appointment, I got a call from my brother that our dad had passed on. *Inna lillahi wa inna ilayhi raji'un*. Amidst the sadness that I felt, I was grateful for actively having him in my life. Unlike the author of the book I was reading earlier, I did have my father for 25+ years of my life, an experience I can't put a price on.
 
@@ -60,7 +60,7 @@ If you knew and worked with my father, it wouldn't take long before you got a gl
 
 When I was much younger, in a bid to cultivate a culture of documenting in me, my father would get me a folder. He would encourage me to do my record-keeping in it. For certain documents, he made photocopies, giving me some and keeping some himself.
 
-After his passing, when helping to clear his room, I had a lot of "oh"s and "ah"s at the amount of documenting he did. Record-keeping is a habit I still need to improve on, as it does not come "naturally" to me yet. I have enjoyed its dividends. It always feels good when I try to remember something that happened a while ago and I am able to reference some document and keep things moving.
+After his passing, when helping to clear his room, I had a lot of "oh"s and "ah"s at the amount of documenting he did. Record-keeping is a habit I still need to improve on, as it does not come naturally to me yet. I have enjoyed its dividends. It always feels good when I try to remember something that happened a while ago and I am able to reference some document and keep things moving.
 
 ![A work colleague was surprised that I could still find throwaway code a long time after.](https://res.cloudinary.com/haks/image/upload/v1770833551/HAKSOAT_Blog/lessons-from-my-father/colleague_documentation.png){: .align-center}
 A work colleague was surprised that I could still find throwaway code a long time after.
