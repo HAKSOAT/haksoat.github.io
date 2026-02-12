@@ -22,4 +22,7 @@ html {
   @include breakpoint($x-large) {
     font-size: 18px; // change to whatever
   }
+
+  // Override header overlay image position for posts with header-top class
+  .header-top .page__hero--overlay { background-position: center top !important; } 
 }

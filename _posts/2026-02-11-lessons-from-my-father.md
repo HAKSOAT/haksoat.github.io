@@ -1,9 +1,10 @@
 ---
 title:  "Lessons from My Father"
 last_modified_at: 2026-02-11T00:00:00+01:00
+classes: header-top
 header:
-  teaser: https://res.cloudinary.com/haks/image/upload/v1770878664/HAKSOAT_Blog/lessons-from-my-father/teaser.png
-  overlay_image: https://res.cloudinary.com/haks/image/upload/v1770878664/HAKSOAT_Blog/lessons-from-my-father/teaser.png
+  teaser: https://res.cloudinary.com/haks/image/upload/v1770909282/HAKSOAT_Blog/lessons-from-my-father/teaser.jpg
+  overlay_image: https://res.cloudinary.com/haks/image/upload/v1770909282/HAKSOAT_Blog/lessons-from-my-father/teaser.jpg
   caption: "AI Generated Image"
 excerpt: "I lost my father in December 2025, I am sharing some lessons I learnt from him."
 tags:
@@ -103,4 +104,4 @@ After days of contemplating if I should write this piece or not, I am glad I did
 
 As a parting shot, I would narrate a time in my life when he would teach me something beneficial—it was valuable then, remains so now, and will be in the future.
 
-My handwriting was poor; it still is. So some years ago, my father paid extra attention to my writing and would scold me a lot because of it. He would then enrol me in handwriting classes every Saturday, probably for one year until those classes stopped running. He would say to me: `"it does not matter how intelligent or knowledgeable you are; nobody would read what you are writing if it is illegible."` In essence, it does not matter how good my work is; it is as good as a brick if I am unable to communicate what was done to someone else.
+My handwriting was poor; it still is. So some years ago, my father paid extra attention to my writing and would scold me a lot because of it. He would then enrol me in handwriting classes every Saturday, probably for one year until those classes stopped running. He would say to me: `"it does not matter how intelligent or knowledgeable you are; nobody would read what you are writing if it is illegible."` In essence, it does not matter how good my work is; it would be dead in the water if I am unable to communicate what was done to someone else.
