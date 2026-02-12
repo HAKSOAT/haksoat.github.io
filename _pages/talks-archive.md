@@ -9,13 +9,23 @@ toc_sticky: true
 
 This page contains a list of some of the public talks I have given.
 
+## 2025
+
+### Contributing to Open Source Machine Learning Libraries
+
+Event: SysConf, 2025
+
+Resources: [Recording](https://youtu.be/BLJmO6hK_mk) \| [Slides](https://docs.google.com/presentation/d/1U_bvKDAvF5ao458pIPdX4G3mPq0hWKhHkX37i50Gii8) 
+
+{% include video id="BLJmO6hK_mk" provider="youtube" %}
+
 ## 2024
 
 ### Contributing to Open Source Machine Learning Libraries
 
 Event: Machine Learning Lagos
 
-Resources: [Recording](https://youtu.be/T4s7BdWQEnc) | [Slides](https://docs.google.com/presentation/d/1OhhzAeXnk8iDA7Ur57HrGrQ2JSe-l0AEkYEKCIDK7gk) 
+Resources: [Recording](https://youtu.be/T4s7BdWQEnc) \| [Slides](https://docs.google.com/presentation/d/1OhhzAeXnk8iDA7Ur57HrGrQ2JSe-l0AEkYEKCIDK7gk) 
 
 {% include video id="T4s7BdWQEnc" provider="youtube" %}
 
@@ -32,16 +42,14 @@ Resources: [Slides](https://docs.google.com/presentation/d/15V0pfOXmud7Fis7XrUZp
 
 Event: MLOps Lagos, December Meetup, 2023
 
-Resources: [Recording](https://youtu.be/YchuwSqLp7Q) | [Slides](https://docs.google.com/presentation/d/14m2nThhKONvfj3SkN6P6VwWDSX_O8pwIFmZijlk6ktA) 
-
-{% include video id="YchuwSqLp7Q" provider="youtube" %}
+Resources: [Recording no longer available](https://youtu.be/YchuwSqLp7Q) \| [Slides](https://docs.google.com/presentation/d/14m2nThhKONvfj3SkN6P6VwWDSX_O8pwIFmZijlk6ktA) 
 
 
 ### Martial Arts Meets Machine Learning: Recognizing Judo Throws with MMAction2
 
 Event: PyData London, 2023
 
-Resources: [Recording](https://youtu.be/XwSWFIjtvdc) | [Slides](https://docs.google.com/presentation/d/1hDMHlQixxP2a5fknH2anFFIPWIqVGN8IojS48UDSMDs) | 
+Resources: [Recording](https://youtu.be/XwSWFIjtvdc) \| [Slides](https://docs.google.com/presentation/d/1hDMHlQixxP2a5fknH2anFFIPWIqVGN8IojS48UDSMDs) \| 
 [Colab Notebook](https://colab.research.google.com/drive/1bhgyzZS7_byW7xXRbPQeNEvmqvRieGcX?usp=sharing)
 
 {% include video id="XwSWFIjtvdc" provider="youtube" %}
@@ -58,7 +66,7 @@ Resources: [Slides](https://docs.google.com/presentation/d/1gu9_TstfY8jU8Vjh_hO2
 
 Event: DevMeets
 
-Resources: [Recording](https://youtu.be/kZdW_BX-Rz0) | [Slides](https://docs.google.com/presentation/d/1KWBe1piar9mVCukQXMbX-dFbJBZ_acbC7YErUnVSmw0)
+Resources: [Recording](https://youtu.be/kZdW_BX-Rz0) \| [Slides](https://docs.google.com/presentation/d/1KWBe1piar9mVCukQXMbX-dFbJBZ_acbC7YErUnVSmw0)
 
 {% include video id="kZdW_BX-Rz0" provider="youtube" %}
 
