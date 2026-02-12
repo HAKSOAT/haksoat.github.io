@@ -3,8 +3,8 @@ title:  "Lessons from My Father"
 last_modified_at: 2026-02-11T00:00:00+01:00
 header:
   teaser: https://res.cloudinary.com/haks/image/upload/v1770878664/HAKSOAT_Blog/lessons-from-my-father/teaser.png
-  overlay_image: https://sm.mashable.com/t/mashable_in/photo/default/nasa-galaxy_9pu4.1920.jpg
-  caption: "Photo credit: [**Mashable**](https://in.mashable.com/science/3303/nasa-shares-the-most-detailed-image-of-outer-space-ever-and-were-awestruck)"
+  overlay_image: https://res.cloudinary.com/haks/image/upload/v1770878664/HAKSOAT_Blog/lessons-from-my-father/teaser.png
+  caption: "AI Generated Image"
 excerpt: "I lost my father in December 2025, I am sharing some lessons I learnt from him."
 tags:
   - experience
