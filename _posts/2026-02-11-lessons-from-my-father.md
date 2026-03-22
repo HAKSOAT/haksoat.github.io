@@ -10,7 +10,7 @@ excerpt: "I lost my father in December 2025, I am sharing some lessons I learnt 
 tags:
   - experience
 ---
-On December 8, 2025, I was in Lagos to see my father. He had been ill for a couple of weeks and I needed to visit him. I planned to see him again in January 2026. So when leaving, I told him to stay strong as I would see him again soon. I told him I still had a lot to learn and advice to seek from him. 
+On December 8, 2025, I was in Lagos to see my father. He had been ill for a couple of weeks and I needed to visit him. I planned to see him again in January 2026. So when leaving, I told him to stay strong as I would see him again soon. I told him I still had a lot of advice to seek and knowledge to learn from him.
 
 One week later, I went for an appointment. While awaiting my turn, I was reading James Dyson's "Against the Odds", a passage that said:
 
