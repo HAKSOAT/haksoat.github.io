@@ -10,7 +10,7 @@ excerpt: "I lost my father in December 2025, I am sharing some lessons I learnt 
 tags:
   - experience
 ---
-On December 8, 2025, I was in Lagos to see my father. He had been ill for a couple of weeks, so I needed to visit him. I planned to see him again in January 2026. So when leaving, I told him to stay strong and I would see him again soon. I told him I still had a lot to learn and advice to seek from him. 
+On December 8, 2025, I was in Lagos to see my father. He had been ill for a couple of weeks and I needed to visit him. I planned to see him again in January 2026. So when leaving, I told him to stay strong as I would see him again soon. I told him I still had a lot to learn and advice to seek from him. 
 
 One week later, I went for an appointment. While awaiting my turn, I was reading James Dyson's "Against the Odds", a passage that said:
 
@@ -22,7 +22,7 @@ I remember feeling sad reading those words but little did I know that I was losi
 Left to Right: Myself, my father, my brother.
 {: .text-center}
 
-I have two Notion pages where I note the lessons from my dad and mum. After losing my dad, I opened the page and I had a sad realisation that I won't be actively adding to the document anymore. Well, except retrospectively, as I remember more precious teachable moments.
+I have two Notion pages where I note the lessons from my dad and mum. After losing my dad, I opened the page and I had a sad realisation that I won't be actively adding to the document anymore. Well, except retrospectively as I remember more precious teachable moments.
 
 Some years ago, my father told me that very soon, I would remember his words and say `"this man told me these things; he was right."` Here I am, doing more than just saying he told me these things; I am putting them into writing.
 
