@@ -1,0 +1,9 @@
+{
+  "name": "haksoat-blog-reactions",
+  "version": "1.0.0",
+  "description": "Serverless reaction API for haksoat.com blog",
+  "private": true,
+  "engines": {
+    "node": "20.x"
+  }
+}
