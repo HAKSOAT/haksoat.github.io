@@ -200,9 +200,14 @@ google:
 
 # Comments
 comments:
-  provider: "disqus"
-  disqus:
-    shortname: "haksoat-github-io"
+  provider: "giscus"
+  giscus:
+    repo_id: "MDEwOlJlcG9zaXRvcnkxODA0ODE3NDM="
+    category_name: "Announcements"
+    category_id: "DIC_kwDOCsHuz84C6COK"
+    discussion_term: "pathname"
+    reactions_enabled: 1
+    theme: "light"
 
 # Newsletter
 mailerlite:
