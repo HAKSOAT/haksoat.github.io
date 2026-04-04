@@ -84,7 +84,7 @@
   // Ensure trailing slash is present to match Giscus convention
   if (slug && slug.slice(-1) !== '/') slug += '/';
 
-  var API_BASE = 'https://haksoat-blog.vercel.app/api/reactions';
+  var API_BASE = 'https://haksoat-reactions-api.vercel.app/api/reactions';
   var STORAGE_KEY = 'reacted:' + slug;
 
   var reacted = localStorage.getItem(STORAGE_KEY);
