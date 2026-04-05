@@ -206,7 +206,7 @@ comments:
     category_name: "Announcements"
     category_id: "DIC_kwDOCsHuz84C6COK"
     discussion_term: "pathname"
-    reactions_enabled: 1
+    reactions_enabled: 0
     theme: "light"
 
 # Newsletter
