@@ -92,13 +92,42 @@ Then, update the JavaScript array that initializes the counts:
 ```
 
 **3. Deploy the Changes**
-- Commit and push the changes to GitHub.
+- Commit and push the changes to the `master` branch on GitHub.
 - The frontend changes will automatically deploy via GitHub Pages.
-- **Important**: To deploy the backend changes, you must use the Vercel CLI. Run `vercel deploy --prod` from the root of the repository.
+- The backend changes to `api/reactions.js` will automatically deploy to Vercel via a GitHub Actions workflow (`.github/workflows/deploy-reactions.yml`).
 
 ### Changing the Styling
 
 All CSS for the widget is contained within the `<style>` block inside `_includes/reactions.html`. You can modify colors, spacing, and typography there. These changes only require a standard `git push` to deploy via GitHub Pages.
+
+---
+
+## How the Automated Deployment Works
+
+We have set up a fully automated CI/CD pipeline using GitHub Actions to deploy the Vercel API.
+
+### The Trigger
+The deployment is controlled by the `.github/workflows/deploy-reactions.yml` file. It is configured to **only run** when two conditions are met:
+1. A commit is pushed to the `master` branch.
+2. That commit includes changes to the `api/reactions.js` file.
+
+This ensures that regular blog post updates or CSS changes do not trigger unnecessary Vercel builds.
+
+### The Process
+When the workflow triggers, it performs the following steps:
+1. Checks out the repository.
+2. Installs the Vercel CLI.
+3. Pulls the Vercel environment configuration using the `VERCEL_TOKEN` secret.
+4. Builds the project artifacts locally on the GitHub runner.
+5. Deploys the pre-built output directly to Vercel production.
+
+### The Secrets
+The workflow relies on three repository secrets configured in GitHub (`Settings > Secrets and variables > Actions`):
+- `VERCEL_TOKEN`: The API token authorizing the deployment.
+- `VERCEL_ORG_ID`: The Vercel team/account ID.
+- `VERCEL_PROJECT_ID`: The specific Vercel project ID (`haksoat-reactions-api`).
+
+You can monitor these deployments in the **Actions** tab of your GitHub repository or the **Deployments** tab in your Vercel dashboard.
 
 ---
 
