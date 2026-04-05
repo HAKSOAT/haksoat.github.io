@@ -35,6 +35,7 @@ The architecture consists of three components:
 ### 2. Vercel (The API Hosting)
 - **What it is**: A cloud platform for static sites and serverless functions.
 - **Where it lives**: Hosted at [vercel.com](https://vercel.com). The project is named `haksoat-reactions-api`.
+- **Environment Variables (Security)**: The Vercel project is configured with two secret environment variables: `UPSTASH_REDIS_REST_URL` and `UPSTASH_REDIS_REST_TOKEN`. These are the API keys that allow the Vercel function to securely talk to your Upstash database. Because they are stored as environment variables in Vercel, they are never exposed to the public internet or committed to this GitHub repository.
 - **The Code**: The API logic is written in Node.js and lives in `api/reactions.js` in the root of this repository. Vercel automatically detects the `api/` folder and deploys any `.js` files inside it as serverless endpoints.
 - **The Endpoint**: The live API is accessible at `https://haksoat-reactions-api.vercel.app/api/reactions`.
 
