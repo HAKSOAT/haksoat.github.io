@@ -13,3 +13,9 @@ Run locally:
 ```
 bundle exec jekyll serve
 ```
+
+Run locally, as though in production. Mainly to see things like analytics:
+
+```
+JEKYLL_ENV=production bundle exec jekyll serve --baseurl ""
+```
